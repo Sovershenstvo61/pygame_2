@@ -6,7 +6,7 @@ sc=pygame.display.set_mode((600,40))
 def draw():
     sc.fill((255,0,0))
     font = pygame.font.Font(None, 20)
-    font = pygame.font.Font(None, 20)
+    
     text = font.render("Hello world!", True, [0,0,0])
     sc.blit(text,(20,20))
     pygame.display.update()
